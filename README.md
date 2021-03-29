@@ -47,7 +47,7 @@ sck.bind(('192.1.2.12',5555))
 
 s.connect(('192.1.2.12',5555))
 ```
-## about deactivated lines of code
+# about deactivated lines of code
 ### some processes develop differently in your Linux and Windows operating systems.
 ### programs have been deactivated because some processes cannot run at the same time even if they are written in both.
 ### You can customize the lines of code you can also activate the startup codes I use to see if it works.
