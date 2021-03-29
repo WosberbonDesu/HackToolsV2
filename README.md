@@ -30,3 +30,4 @@ execute = subprocess.Popen(command, shell = True, stdout=subprocess.PIPE,stderr=
 result = execute.stdout.read() + execute.stderr.read()
 reliable_send(result)
 ```
+![Ekran Alıntısı](https://user-images.githubusercontent.com/69467096/112891291-a4fc3c00-90e0-11eb-81bd-604dd01c9b0d.PNG)
