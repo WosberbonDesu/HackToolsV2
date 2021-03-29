@@ -4,3 +4,8 @@ Python Keylogger PortScanner BruteForce and basic hack tools.(new ones will come
 ![Ekran Alıntısı](https://user-images.githubusercontent.com/69467096/112681920-66684680-8e80-11eb-8e59-552d65c3f1fb.PNG)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
+
+## To make exe file write this code block to terminal
+```python
+pyinstaller backdoor.py --onefile --noconsole
+```
