@@ -56,3 +56,6 @@ Even if the victim sees the file, closes it or removes it completely, write this
 persistence Hacked taskmanager.exe
 ```
 you can change the name Hacked immediately noticeable taskmanager.exe is fine
+the backdoor must be run on the victim's computer, and the server file is on your terminal.
+keylogger server and backdoor are connected, the rest are just plugins you don't have to use
+
